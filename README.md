@@ -28,7 +28,7 @@ Execute Instructions: *(NOTE: Launch this program before `usrp_stream4`.  The ou
 ./dsp4 | play --rate 40k -b 32 -c 1 -e float -t raw -
 ```
 
-# Usrp stream program:
+# USRP stream program:
 Compile Instructions:
 ```linux
 usrp_stream4.cpp -o usrp_stream4 -luhd -lboost_system -lboost_thread -lboost_program_options
